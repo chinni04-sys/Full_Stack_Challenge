@@ -1,0 +1,25 @@
+# Implementation Tasks
+
+- [x] Initialize backend project (Express, mysql2, cors, dotenv, bcryptjs, jsonwebtoken)
+- [x] Initialize frontend project (Vite + React)
+- [x] Database Schema setup & migration script
+- [x] Seed script for initial admin user (`admin@admin.com` / `Admin@123!`)
+- [x] Backend Authentication Endpoints (`/api/auth/signup`, `/api/auth/login`, `/api/auth/update-password`)
+- [x] Backend Admin Endpoints
+  - [x] Add Store/User/Admin (`POST /api/admin/users`)
+  - [x] Dashboard stats (`GET /api/admin/dashboard`)
+  - [x] List Users & Stores with sorting/filtering (`GET /api/admin/users`)
+  - [x] Get user details (`GET /api/admin/users/:id`)
+- [x] Backend Normal User Endpoints
+  - [x] View registered stores (`GET /api/stores`)
+  - [x] Submit/Modify rating (`POST /api/stores/:id/rate`)
+- [x] Backend Store Owner Endpoints
+  - [x] Dashboard ratings & stats (`GET /api/owner/dashboard`)
+- [x] Frontend setup and Layout (Simple, human-made, clean design using CSS variables)
+- [x] Frontend Pages:
+  - [x] Login & Signup Page (with validation checks)
+  - [x] Admin Dashboard (Stats, User Management, Store list, filters & sorting)
+  - [x] Normal User Dashboard (Store List, search/sort, rating modal/dropdowns)
+  - [x] Store Owner Dashboard (Average rating, list of users who rated)
+  - [x] Profile / Password Change Page
+- [x] Integration testing and Verification
